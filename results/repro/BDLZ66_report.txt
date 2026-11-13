@@ -1,0 +1,16 @@
+Reproduction report: "Using AI to Assess Demographic Balance of Syllabi and Bibliographies". Sarah Musgrave and Jane L. Sumner.
+PS: Political Science & Politics 59(4) (2026), open access.
+Compared against: Table 1 of the published article.
+Replication package: Harvard Dataverse doi:10.7910/DVN/BDLZ66, version 1.0, fetched 12 Nov 2026.
+Prepared by Humavane (humavane.com), 13 Nov 2026.
+
+RESULT
+The package runs and Table 1 reproduces exactly. musgrave-sumner-2026-replication-file.R ran unchanged on R 4.4.3 in
+2 s and wrote table.html, identical to the published Table 1. A second program written separately in Python
+recomputes, for each tool, the mean and median difference between its share of women authors and the hand-coded
+share in the same document (14 bibliographies, 7 syllabi), and matches all 16 values at the two decimals printed.
+
+Files used (sha256, first 16 hex digits): musgrave-sumner-2026-replication-data.csv ecd979f80be1a43c
+
+NOT CHECKED
+The two figures (accuracy within five points) and the in-text calculations spreadsheet.

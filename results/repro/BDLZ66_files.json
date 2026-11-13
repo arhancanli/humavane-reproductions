@@ -1,0 +1,27 @@
+{
+ "pid": "doi:10.7910/DVN/BDLZ66",
+ "version": "1.0",
+ "fetched_utc": "2026-11-12T18:05:30+00:00",
+ "files": [
+  {
+   "path": "ReadMe for Musgrave and Sumner (2026).txt",
+   "sha256": "1586d55127dd465d0aefad91d720036b0a1ec65b6b60951b65dcff09cc407780",
+   "bytes": 602
+  },
+  {
+   "path": "in-text-calculations.csv",
+   "sha256": "e4f86a5b889f60d5c30a9bff591a912fe28aeca13130b3c110ac450c05424216",
+   "bytes": 5311
+  },
+  {
+   "path": "musgrave-sumner-2026-replication-data.csv",
+   "sha256": "ecd979f80be1a43c827819a398d7730caeb866080248c65b7e20de5198bc983e",
+   "bytes": 10714
+  },
+  {
+   "path": "musgrave-sumner-2026-replication-file.R",
+   "sha256": "4ddfad7114a4bd34596cbc1a7c0e63706277cc83adabbc7926cf7a0b5edb230b",
+   "bytes": 5586
+  }
+ ]
+}
