@@ -1,0 +1,22 @@
+{
+ "pid": "doi:10.7910/DVN/ORZICT",
+ "version": "1.0",
+ "fetched_utc": "2026-11-12T18:31:32+00:00",
+ "files": [
+  {
+   "path": "Data/bap_replication_data_ycp.csv",
+   "sha256": "de5385ed66892cd2c9fd8b51d70580da4116a3ca9dc004da53484dfe96fc1889",
+   "bytes": 36384033
+  },
+  {
+   "path": "bap_replication_ycp.R",
+   "sha256": "836f312761042a95b7d443fe77a861769a6bdb947efab64d0a116bcb9aae1002",
+   "bytes": 63580
+  },
+  {
+   "path": "readme.txt",
+   "sha256": "5398848867ad2221c7d0a9e69c82d0ecbb09605ec27e3747f9be82cec18c354b",
+   "bytes": 2026
+  }
+ ]
+}

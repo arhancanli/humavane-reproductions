@@ -1,0 +1,113 @@
+{
+ "pid": "doi:10.7910/DVN/LBPTEK",
+ "fits": [
+  {
+   "study": 1,
+   "partisans": "Republican",
+   "arm": "Pro-Democrat hypotheticals",
+   "effect": 0.0961474251027908,
+   "se": 0.024092385856586684,
+   "status_quo": 0.036290121934530746,
+   "status_quo_se": 0.008903031380064933,
+   "rows": 2075,
+   "respondents": 415
+  },
+  {
+   "study": 1,
+   "partisans": "Democrat",
+   "arm": "Pro-Republican hypotheticals",
+   "effect": 0.09207392562844485,
+   "se": 0.021058236007823156,
+   "status_quo": 0.03069603154268073,
+   "status_quo_se": 0.008156805392033928,
+   "rows": 2263,
+   "respondents": 453
+  },
+  {
+   "study": 2,
+   "partisans": "Republican",
+   "arm": "Pro-Democrat hypotheticals",
+   "effect": 0.03351033620856225,
+   "se": 0.013989658718567463,
+   "status_quo": 0.07678290016355419,
+   "status_quo_se": 0.00859480015310478,
+   "rows": 7503,
+   "respondents": 1252
+  },
+  {
+   "study": 2,
+   "partisans": "Democrat",
+   "arm": "Pro-Republican hypotheticals",
+   "effect": 0.07364482816499571,
+   "se": 0.012349593918234942,
+   "status_quo": 0.054615237045704874,
+   "status_quo_se": 0.0067848993859950125,
+   "rows": 8620,
+   "respondents": 1440
+  }
+ ],
+ "meta_effect": {
+  "mu": 0.07035599979739766,
+  "se": 0.014682444029509066,
+  "tau2": 0.0005530170422983806
+ },
+ "meta_status_quo": {
+  "mu": 0.049641387806445864,
+  "se": 0.010260466237409725,
+  "tau2": 0.0003550689259033313
+ },
+ "imagined_pid": {
+  "Pro-Democrat hypotheticals": {
+   "mu": -0.46409056070922416,
+   "se": 0.02426219074493168,
+   "tau2": 0.0027031618208199527,
+   "k": 11
+  },
+  "Pro-Republican hypotheticals": {
+   "mu": 0.5593374504094926,
+   "se": 0.07045595602233781,
+   "tau2": 0.05073016975056119,
+   "k": 11
+  }
+ },
+ "single_ad": {
+  "study_1_mturk": {
+   "ate": -0.07765011119347909,
+   "se": 0.17657049669147382,
+   "n": 1434
+  },
+  "study_2_mturk": {
+   "ate": -0.05648587364470506,
+   "se": 0.1461184014024845,
+   "n": 1455
+  }
+ },
+ "paper": {
+  "imagined_pid_pro_rep": 0.56,
+  "imagined_pid_pro_dem": -0.46,
+  "meta_effect_pp": 7.0,
+  "meta_effect_se_pp": 1.5,
+  "status_quo_pct": 5,
+  "pro_outparty_pct": 12,
+  "ad_study_1": [
+   -0.08,
+   0.18
+  ],
+  "ad_study_2": [
+   -0.06,
+   0.15
+  ]
+ },
+ "checks": {
+  "meta_effect": true,
+  "meta_se": true,
+  "status_quo_5pct": true,
+  "pro_outparty_12pct": true,
+  "imagined_pid_pro_rep_0.56": true,
+  "imagined_pid_pro_dem_0.46": true,
+  "ad_study_1": true,
+  "ad_study_2": true
+ },
+ "matched": 8,
+ "of": 8
+}

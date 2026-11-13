@@ -1,0 +1,52 @@
+Reproduction report: "Americans Can Imagine Changing Partisan Affiliation: Evidence from Hypothetical Scenarios".
+Alexander Coppock, Donald P. Green and Ethan Porter. Quarterly Journal of Political Science 21(1) (2026), 26-48,
+doi:10.1108/QJPS-02-2025-0026.
+Compared against: the published article (author's copy, alexandercoppock.com/coppock_green_porter_2026.pdf).
+Replication package: Harvard Dataverse doi:10.7910/DVN/LBPTEK, version 1.0, fetched 12 Nov 2026.
+Prepared by Humavane (humavane.com), 12 Nov 2026.
+
+RESULT
+The package runs and the paper's headline numbers reproduce exactly. 19 of the 20 scripts finished without errors
+on R 4.4.3; in_text_claims.R prints the numbers quoted in the text. A second program written separately in Python
+re-derives the same numbers from the cleaned data and matches all 8 we checked.
+
+WHAT WAS RUN
+- All 20 scripts listed in the README, unchanged, each from the archive folder, with R 4.4.3. 19 finished (1.5 s to
+  99 s). table_C5_macropartisanship_comparison.R computes its estimates but stops at its last line, which saves them
+  to ../replication_archive/macropartisanship_estimates.rds, a folder outside the archive (see notes).
+- No script or data file was edited.
+
+Files used (sha256, first 16 hex digits):
+  clean_hypotheticals_study_1.rds   c06aa1c5b2d0ea77
+  clean_hypotheticals_study_2.rds   7291ea292e09f2ed
+  clean_survey_experiments.rds      d87edf169ee5c88a
+  in_text_claims.R                  b7b3f28f1bd680ab
+  figure_3_hypotheticals_study_1.R  3c2c7fb147f84feb
+  figure_4_hypotheticals_study_2.R  d10f7fd1781b8aa5
+
+SECOND PROGRAM
+lbptek.py reads the cleaned .rds files with pyreadr and shares no code with the R scripts. It rebuilds the four long
+switching datasets (Study 1 and 2; Republicans facing pro-Democratic scenarios, Democrats facing pro-Republican ones),
+fits Lin's estimator with CR2 cluster-robust standard errors by respondent (as estimatr::lm_lin does), and pools the
+four effects and the four status-quo rates by REML random-effects meta-analysis (metafor's default). It also fits the
+per-scenario models of imagined party ID (OLS with covariate dummies, HC2) and pools them, and the single-ad ATEs.
+
+MATCHES (all 8)
+                                               paper           package (in_text_claims.R)   second program
+  switching, pro-out-party vs status quo       7 pp (SE 1.5)   0.0704 (0.0147)              7.04 pp (1.47)
+  status-quo switching rate                    5%                                            4.96%
+  pro-out-party switching rate                 12%                                           12.0%
+  imagined party ID, pro-Republican scenarios  0.56            0.559                         0.559 (0.070)
+  imagined party ID, pro-Democratic scenarios  0.46 (Dem.)                                   -0.464 (0.024)
+  single ad, study 1                           -0.08 (0.18)    -0.0777 (0.1766)              -0.078 (0.177)
+  single ad, study 2                           -0.06 (0.15)    -0.0565 (0.1461)              -0.056 (0.146)
+
+The four switching estimates behind the 7 pp: Study 1 Republicans 9.61 pp (2.41), Study 1 Democrats 9.21 (2.11),
+Study 2 Republicans 3.35 (1.40), Study 2 Democrats 7.36 (1.23); REML tau^2 = 0.00055.
+
+NOTES FOR THE PACKAGE
+- table_C5_macropartisanship_comparison.R ends with write_rds(..., "../replication_archive/macropartisanship_
+  estimates.rds"), a path from the authors' own folder layout, so it stops there when run from the archive. The
+  precomputed file it writes is already in the archive, so nothing is lost; writing to "macropartisanship_
+  estimates.rds" would make the script finish.
+- The README is clear and the precomputed estimate files make every figure quick to check. Nothing else to report.

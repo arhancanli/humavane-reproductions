@@ -1,0 +1,202 @@
+{
+ "pid": "doi:10.7910/DVN/LBPTEK",
+ "version": "1.0",
+ "fetched_utc": "2026-11-12T08:11:47+00:00",
+ "files": [
+  {
+   "path": "analyze_outcomes_study_1.R",
+   "sha256": "0cc5163f5b820717ae6b96aaae2140bbd208e639012730f8eaee9f37f14fee9c",
+   "bytes": 2405
+  },
+  {
+   "path": "analyze_outcomes_study_2.R",
+   "sha256": "dc652c8af1b4774f556b3fc7c108fc9a1c173f9de3954400e00c839499a5c425",
+   "bytes": 2411
+  },
+  {
+   "path": "angela.jpg",
+   "sha256": "277483f1b01c1c29b5392867527f525638c2fa12059e327df55cc094560c01b6",
+   "bytes": 13258
+  },
+  {
+   "path": "ates_study_1.rds",
+   "sha256": "634903ccd85c7995bda1551577cf1c2dc31163b0291c09f2abc54bee595a0d04",
+   "bytes": 13559
+  },
+  {
+   "path": "ates_study_2.rds",
+   "sha256": "28de9604edf4078da81e85c0ea8666fe3815b850f921d63caaea1872a9b61f5c",
+   "bytes": 13560
+  },
+  {
+   "path": "clean_field_experiments.rds",
+   "sha256": "9cc7b4752c02c092bc6ea52955e0d349f1106c351aab0af8d62f8865b623eb2e",
+   "bytes": 1655118
+  },
+  {
+   "path": "clean_hypotheticals_study_1_long.rds",
+   "sha256": "72c67052f4bbebe2d5b9bb3c550285848868be2628ef51e1963fe4ea3cfc465f",
+   "bytes": 3531444
+  },
+  {
+   "path": "clean_hypotheticals_study_1.rds",
+   "sha256": "c06aa1c5b2d0ea778926ce9ea2098b976bcaec00bebc0d1e7eb134a75b0258a8",
+   "bytes": 718160
+  },
+  {
+   "path": "clean_hypotheticals_study_2_long.rds",
+   "sha256": "f8292808cd1d0254e4ed3135fbae31a874fbad108f28eed9215388242fac9409",
+   "bytes": 17050865
+  },
+  {
+   "path": "clean_hypotheticals_study_2.rds",
+   "sha256": "7291ea292e09f2ed0784e1b53a4cf6fb2175bec0d11bffa955ce6661a8f43a77",
+   "bytes": 2898729
+  },
+  {
+   "path": "clean_survey_experiments.rds",
+   "sha256": "d87edf169ee5c88ae805408d67f7a3fa6dee1f6b9ec4b593924c7b4f64b19dcf",
+   "bytes": 2113186
+  },
+  {
+   "path": "darryl.jpg",
+   "sha256": "45bdad40d2330b4e545d56ef5f62ad95de46dad35383521aaa016ff859b2552c",
+   "bytes": 115008
+  },
+  {
+   "path": "dwight.jpg",
+   "sha256": "fb8b5514220f31502eb99aca7d342187071d4e3ef4a44b5b8069c76691ff44b5",
+   "bytes": 22407
+  },
+  {
+   "path": "figure_1_figure_B5_table_B3_field_experiment_nofe.R",
+   "sha256": "ba91fee10714ed8f949123f0ad67345a094cf3e13491522994a19bae54e43306",
+   "bytes": 6123
+  },
+  {
+   "path": "figure_2_consort_calculations.R",
+   "sha256": "d88ab4890a950495c561de58eb26cdfcda8f15132e04f5417cc96d82b6acb301",
+   "bytes": 356
+  },
+  {
+   "path": "figure_3_hypotheticals_study_1.R",
+   "sha256": "3c2c7fb147f84feb652da79dcf62ba8c021bdfbdfac789020f043e31b65e0c25",
+   "bytes": 2738
+  },
+  {
+   "path": "figure_4_hypotheticals_study_2.R",
+   "sha256": "d10f7fd1781b8aa5376ccd1cddd3a2e47200ce44acb654b11262f39ba1e6c61e",
+   "bytes": 2719
+  },
+  {
+   "path": "figure_5_party_switching.R",
+   "sha256": "3e9b9116028bd94c5173b12da2918b9a6f1ac6685e0ec38bc36992a7a7fc578e",
+   "bytes": 2857
+  },
+  {
+   "path": "figure_6_hypotheticals_order.R",
+   "sha256": "bd8e6fcf3cd03baf3ee3811d7368ddf835356736c521fb7c749c8f41e30f4728",
+   "bytes": 3079
+  },
+  {
+   "path": "figure_7_meta_analysis_outcomes.R",
+   "sha256": "543f64aea31cf7fcb07df2cc64889e297e05f10e5fe77eea50245e1dc03e4b0b",
+   "bytes": 2567
+  },
+  {
+   "path": "figure_A4_trimming_analysis.R",
+   "sha256": "08f598d435ea0c1aabc9f3b7cce56eeab882239c1f4ccc6821daf5ffe0f96645",
+   "bytes": 7969
+  },
+  {
+   "path": "figure_B6_field_experiment_yesfe.R",
+   "sha256": "dcf159572932e0be1445a1aae78d6a9fc2b35b76a50ea4b8ace81ecf0e0c7c02",
+   "bytes": 3598
+  },
+  {
+   "path": "figure_C10-C11_party_switching.R",
+   "sha256": "9863b5ce35db6a73efcdde8c38a1c6fd39538bb5b4ea7d858e689bb955c7d328",
+   "bytes": 4269
+  },
+  {
+   "path": "figure_C7_theoffice.R",
+   "sha256": "7d4f7779c527522b31370169654154077581e37e601115da47deac58e282c210",
+   "bytes": 1976
+  },
+  {
+   "path": "figure_C8_meta_analysis_hypotheticals.R",
+   "sha256": "5d92d6cd9c1c92fbed8eb8f535ce95a0ead12c028d6aaf210d8d3daef76fb0aa",
+   "bytes": 1578
+  },
+  {
+   "path": "figure_C9_probabilities_study_2.R",
+   "sha256": "656da0e852f1aa03e57223e91e942d7eaba7961805722266abcc1ba66aa700c8",
+   "bytes": 2058
+  },
+  {
+   "path": "figures_A2_and_A3_response_rates.R",
+   "sha256": "eb59fec839207fa89f57813ad67a286cce9f8d2ed10033977e98206d823517be",
+   "bytes": 2395
+  },
+  {
+   "path": "helpers.R",
+   "sha256": "74b133538585103588e93a5dbc0f5c90c8538d18f719d442e76501cf45156b83",
+   "bytes": 636
+  },
+  {
+   "path": "hypotheticals_study_1.rds",
+   "sha256": "a8ad30ceb3f7571eaad2d746a8d1731962f1e803cde41848684d0187f5bff0e1",
+   "bytes": 13140
+  },
+  {
+   "path": "hypotheticals_study_2.rds",
+   "sha256": "36bcf304358ba3afd3067ed5791cfa148d9eacda451db85ee1869e3d1280f337",
+   "bytes": 15557
+  },
+  {
+   "path": "in_text_claims.R",
+   "sha256": "b7b3f28f1bd680ab82dfda79379c749ba391dea5895d6ce56e080f875c02a247",
+   "bytes": 16614
+  },
+  {
+   "path": "macro_data.csv",
+   "sha256": "1c3883733993dfede33ef1b524b95a1a04076420d6546d044c77c76e487b5caa",
+   "bytes": 38690
+  },
+  {
+   "path": "macropartisanship_estimates.rds",
+   "sha256": "8cf1691eb7b0fbf26f4995ac99e0dd59aa83c229d4e5a9cff681408cd8940548",
+   "bytes": 1115
+  },
+  {
+   "path": "michael.jpg",
+   "sha256": "44b597b379811ea26df86414f5737924e4090d134dc64f4826312215214ebc29",
+   "bytes": 19835
+  },
+  {
+   "path": "pam.jpg",
+   "sha256": "629c8d85fbc479d2642a349d8d419b22b5960f06d99c012c209f70573b051bef",
+   "bytes": 25739
+  },
+  {
+   "path": "README.txt",
+   "sha256": "b71a4b806899a3c5f9f49e36233fd6f17781efb665879057628bb83b55619d0a",
+   "bytes": 4707
+  },
+  {
+   "path": "table_A1_survey_experiments_1_and_2_ns.R",
+   "sha256": "20938985df33733335cb3be309e90738aa2386be333db8fc2db45de515c3eaea",
+   "bytes": 592
+  },
+  {
+   "path": "table_A2_survey_experiments_345_ns.R",
+   "sha256": "e8b203d616fcfddda20c4a8f5cab5181fe50046a81e399c5dc0737d4eb7f9762",
+   "bytes": 1020
+  },
+  {
+   "path": "table_C5_macropartisanship_comparison.R",
+   "sha256": "ac4dbc23cf42590d725a448e106e7ad4d25705b581ff6fdf71fa4d62781f6c41",
+   "bytes": 3349
+  }
+ ]
+}

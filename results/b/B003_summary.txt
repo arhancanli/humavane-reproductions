@@ -1,0 +1,8 @@
+B003 verdict: ROBUST
+126/126 positive; 126/126 positive with p < .05 (CR2); 126/126 (CR1)
+median 8.07 pp, range 5.81 to 9.6 pp
+paper spec 7.04 pp (CR2 1.47); RI p < 1/2000 (2000 permutations; observed mean of four Lin estimates 7.38 pp)
+by estimator: lin: median 8.07 pp, sig 42/42; ols: median 8.09 pp, sig 42/42; dim: median 8.12 pp, sig 42/42
+by pooling: reml: median 8.07 pp, sig 42/42; fixed: median 7.86 pp, sig 42/42; stacked: median 7.75 pp, sig 42/42
+by comparison: status_quo: median 6.68 pp, sig 63/63; pro_in_party: median 9.06 pp, sig 63/63
+by drop: none: median 8.01 pp, sig 18/18; violence: median 8.57 pp, sig 18/18; ukraine: median 8.17 pp, sig 18/18; economy: median 7.53 pp, sig 18/18; medical: median 7.66 pp, sig 18/18; guns: median 8.27 pp, sig 18/18; camps: median 7.82 pp, sig 18/18

@@ -1,0 +1,26 @@
+Reproduction report: "Business Responses to Geopolitics: European Firms' Divestment from China". Aydin B. Yildirim,
+J. Tyson Chatagnier and Arlo Poletti. Business and Politics (2026, First View), open access.
+Compared against: Tables 1, 2 and 3 of the published article.
+Replication package: Harvard Dataverse doi:10.7910/DVN/ORZICT, version 1.0, fetched 12 Nov 2026.
+Prepared by Humavane (humavane.com), 13 Nov 2026.
+
+RESULT
+The package runs and all three tables reproduce exactly. bap_replication_ycp.R ran unchanged on R 4.4.3 (fixest) in
+1079 s. A second program written separately in Python rebuilds the firm and sector panels from the CSV and matches
+all 310 values we compared: the 100 entries of Table 1 (both panels), and in Tables 2 and 3 every coefficient,
+clustered standard error and star of the three fractional-logit models, with the Ns (18,915 and 2,263) and cluster
+counts (1,648 and 201).
+
+Files used (sha256, first 16 hex digits): bap_replication_data_ycp.csv de5385ed66892cd2
+
+SECOND PROGRAM
+orzict.py reads the CSV with pandas and shares no code with the R script. It applies the documented data steps (the
+four NACE sectors and thirteen firms dropped, anti-globalization = 1 - attitude, sector means by country x NACE x
+year), fits the fractional logit with country fixed effects by Newton steps, and computes standard errors clustered by
+firm or by country-sector. One detail matters for the third decimal: the small-sample factor counts every country
+effect in K (n-1)/(n-K). Treating the country effects as nested in the clusters (not counted) makes 26 printed SEs
+differ by one in the last digit.
+
+NOT CHECKED
+The strategic-interaction models, the IPI and no-imputation robustness tables, and the marginal-effect figures with
+their cluster bootstrap.
